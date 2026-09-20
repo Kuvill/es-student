@@ -5,11 +5,11 @@ INCLUDE "memmap_default.incl"
  * and tools/memmap_include_tree.py). To override any files in this tree, see the
  * pico_add_linker_script_override_path CMake function under pico_standard_link.
  *
- * memmap_default.ld                                     rp2350/pico_platform
+ * memmap_default.ld                                     rp2040/pico_platform
  * └── memmap_default.incl                               rp2_common/pico_standard_link
  *     ├── set_memory_locations.incl                     rp2_common/pico_standard_link
  *     ├── memory_flash.incl                             rp2_common/pico_standard_link
- *     ├── memory_psram.incl                             rp2_common/pico_standard_link
+ *     ├── memory_psram.incl                             rp2040/pico_platform
  *     ├── memory_xip_ram.incl                           rp2_common/pico_standard_link
  *     ├── memory_ram.incl                               rp2_common/pico_standard_link
  *     ├── memory_scratch.incl                           rp2_common/pico_standard_link
@@ -17,18 +17,18 @@ INCLUDE "memmap_default.incl"
  *     ├── memory_extra.incl                             rp2_common/pico_standard_link
  *     ├── memory_aliases_flash.incl                     rp2_common/pico_standard_link
  *     └── sections_default.incl                         rp2_common/pico_standard_link
- *         ├── sections_default_text.incl                rp2_common/pico_standard_link
+ *         ├── sections_default_text.incl                rp2040/pico_platform
  *         │   ├── section_flash_begin.incl              rp2_common/pico_standard_link
+ *         │   ├── section_boot2.incl                    rp2040/pico_platform
  *         │   ├── section_default_text.incl             rp2_common/pico_standard_link
  *         │   │   └── default_text_excludes.incl        rp2_common/pico_standard_link
- *         │   ├── section_boot2.incl                    rp2_common/pico_standard_link
  *         │   ├── section_default_rodata.incl           rp2_common/pico_standard_link
  *         │   │   └── default_rodata_excludes.incl      rp2_common/pico_standard_link
  *         │   ├── sections_arm_ex.incl                  rp2_common/pico_standard_link
  *         │   └── section_binary_info.incl              rp2_common/pico_standard_link
  *         ├── section_generated_post_text.incl          rp2_common/pico_standard_link
  *         ├── section_extra_post_text.incl              rp2_common/pico_standard_link
- *         ├── sections_psram.incl                       rp2_common/pico_standard_link
+ *         ├── sections_psram.incl                       rp2040/pico_platform
  *         ├── section_xip_ram.incl                      rp2_common/pico_standard_link
  *         ├── sections_default_data.incl                rp2_common/pico_standard_link
  *         │   ├── section_ram_vector_table.incl         rp2_common/pico_standard_link
@@ -47,7 +47,7 @@ INCLUDE "memmap_default.incl"
  *         ├── section_end.incl                          rp2_common/pico_standard_link
  *         ├── section_generated_post_end.incl           rp2_common/pico_standard_link
  *         ├── section_extra_post_end.incl               rp2_common/pico_standard_link
- *         ├── section_platform_end.incl                 rp2350/pico_platform
+ *         ├── section_platform_end.incl                 rp2040/pico_platform
  *         ├── section_generated_post_platform_end.incl  rp2_common/pico_standard_link
  *         └── section_extra_post_platform_end.incl      rp2_common/pico_standard_link
  * END_MEMMAP_INCLUDE_TREE */
