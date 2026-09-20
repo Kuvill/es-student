@@ -3,7 +3,7 @@ Python 3.14.7
 cmake version 4.4.3-dirty
 GNU Make 4.4.1
 arm-none-eabi-gcc (Arch Repository) 16.2.0
-code NVIM v0.12.5
+code 1.228.337
 picotool v2.3.0 (Linux, GNU-11.4.0, Release)
 pico-sdk 2.3.0
 PICO_SDK_PATH=/home/kuvil/.local/source/pico-sdk/
