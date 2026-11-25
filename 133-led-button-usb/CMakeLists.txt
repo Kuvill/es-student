@@ -6,7 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 include(pico_sdk_import.cmake)
 
-project(133_led-button-usb)
+project(133_led_button_usb)
 
 pico_sdk_init()
 

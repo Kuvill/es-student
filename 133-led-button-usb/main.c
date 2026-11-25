@@ -13,7 +13,7 @@ static void set_led(bool on) {
 	printf("led %s\n", on ? "on" : "off");
 }
 
-static bool get_button_debounce(int pin) {
+static bool get_button_debounce(uint pin) {
 	bool state = gpio_get(pin);
 	sleep_ms(DEBOUNCE_MS);
 	return state && gpio_get(pin);
