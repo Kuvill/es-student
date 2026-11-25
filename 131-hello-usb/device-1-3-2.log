@@ -4,48 +4,14 @@
 серийный номер: 65E24C8358B97F62
 порт: /dev/ttyACM0
 начало: 2026-11-25T15:40:10
-  44.450 <-- Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-  Hello, world!
-итог: принято строк 10 за 10.0 с
+  0.450 <-- Hello, world!
+  1.450 <-- Hello, world!
+  2.450 <-- Hello, world!
+  4.450 <-- Hello, world!
+  5.450 <-- Hello, world!
+  6.450 <-- Hello, world!
+  7.450 <-- Hello, world!
+  8.450 <-- Hello, world!
+  9.450 <-- Hello, world!
+  10.450 <-- Hello, world!
+итог: принято строк 11 за 10.0 с
