@@ -3,15 +3,16 @@
 устройство: 2e8a:000a
 серийный номер: 65E24C8358B97F62
 порт: /dev/ttyACM0
-начало: 2026-11-25T15:40:10
-  0.450 <-- Hello, world!
-  1.450 <-- Hello, world!
-  2.450 <-- Hello, world!
-  4.450 <-- Hello, world!
-  5.450 <-- Hello, world!
-  6.450 <-- Hello, world!
-  7.450 <-- Hello, world!
-  8.450 <-- Hello, world!
-  9.450 <-- Hello, world!
-  10.450 <-- Hello, world!
+начало: 2026-10-29T10:42:01
+   0.506 <-- Hello, world!
+   1.506 <-- Hello, world!
+   2.506 <-- Hello, world!
+   3.506 <-- Hello, world!
+   4.506 <-- Hello, world!
+   5.506 <-- Hello, world!
+   6.506 <-- Hello, world!
+   7.506 <-- Hello, world!
+   8.506 <-- Hello, world!
+   9.506 <-- Hello, world!
+  10.506 <-- Hello, world!
 итог: принято строк 11 за 10.0 с
