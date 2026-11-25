@@ -29,7 +29,7 @@ static bool handle_command( int command, bool led ) {
 		set_led(led);
 
 	} else {
-		printf("Unknown command: %c\n", command);
+		printf("unknown command: %c\n", command);
 	}
 
 	return led;
